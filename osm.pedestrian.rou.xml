@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-01-03 12:48:20.277664 by osmWebWizard.py v1_15_0+0002-e6790248698
+<configuration>
+    <additional-files value="C:\Users\gueye\Sumo\2023-01-03-12-47-57\osm_stops.add.xml,C:\Users\gueye\Sumo\2023-01-03-12-47-57\osm_pt.rou.xml"/>
+    <end value="3600"/>
+    <fringe-factor value="1"/>
+    <insertion-density value="20.0"/>
+    <net-file value="C:\Users\gueye\Sumo\2023-01-03-12-47-57\osm.net.xml.gz"/>
+    <persontrips value="True"/>
+    <route-file value="C:\Users\gueye\Sumo\2023-01-03-12-47-57\osm.pedestrian.rou.xml"/>
+    <trip-attributes value="modes=&quot;public&quot;"/>
+    <output-trip-file value="C:\Users\gueye\Sumo\2023-01-03-12-47-57\osm.pedestrian.trips.xml"/>
+    <prefix value="ped"/>
+    <vehicle-class value="pedestrian"/>
+    <persontrip.walk-opposite-factor value="0.8"/>
+</configuration>
+-->
+
+<!-- generated on 2023-01-03 12:48:20 by Eclipse SUMO duarouter Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\gueye\Sumo\2023-01-03-12-47-57\osm.net.xml.gz"/>
+        <additional-files value="C:\Users\gueye\Sumo\2023-01-03-12-47-57\osm_stops.add.xml,C:\Users\gueye\Sumo\2023-01-03-12-47-57\osm_pt.rou.xml"/>
+        <route-files value="C:\Users\gueye\Sumo\2023-01-03-12-47-57\osm.pedestrian.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\gueye\Sumo\2023-01-03-12-47-57\osm.pedestrian.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <processing>
+        <persontrip.walk-opposite-factor value="0.8"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd"/>

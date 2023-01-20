@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-01-03 12:48:11 by Eclipse SUMO netconvert Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertUrbanDe.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertPedestrians.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertShips.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertBicycle.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <formats>
+        <osm.bike-access value="true"/>
+        <osm.sidewalks value="true"/>
+    </formats>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="13895617" name="Bus C2 : Place d&apos;Armes, Harfleur → Grand Quai, Le Havre" line="C2" type="bus" vClass="bus" color="226,8,22" completeness="0.02">
+        <route edges="-41601194#4 -41601194#3 -41601194#2 -41601194#1 -41601194#0 -243167820#5 -243167820#4 -243167820#3 -243167820#2 -243167820#1 -1033551663#1 -987933713 -230154508#1 -230154508#0 -927176956#1 -41601195#4 -41601195#3 -41601195#1 263478257 738913384#0 738913384#2 738913386#1 738913386#2 201845688 876655705 -242316872#1 -905856180#2 -905856180#0 -630306072 -288956576#1 -884899260#1 -1121868643 -197335669 1121868644"/>
+        <busStop id="-9561454679" name="Ormeaux"/>
+    </ptLine>
+    <ptLine id="14588098" name="Bus 1 : Gare, Montivilliers → La Hève, Sainte-Adresse" line="1" type="bus" vClass="bus" color="27,157,217" completeness="0.01">
+        <route edges="197335659#0 197335659#2 197335659#4 197335659#5 1006730649#0 893426052#0 880255678#0 -41601195#4 -41601195#3 -41601195#1 201845690#1 263478257 738913384#0 738913384#2 738913386#1 738913386#2 201845688 876655705 -242316872#1 -905856180#2 -905856180#0 -630306072 -288956576#1 -884899260#1 -1121868643 -197335669 -542888743 -542424891#8 -542424891#7 -542424891#5 -542424891#4 -542424891#3 -542424891#2 653203984#1 197335672#1 197335672#3 197335672#5 197335672#8 197335672#10 197335672#11 533127465#0 533127465#1 533127465#3 533127465#4 533127465#5 70881094#0 70881094#1"/>
+        <busStop id="10031759026" name="Ingouville"/>
+    </ptLine>
+    <ptLine id="14613293" name="Bus 3 : Graville, Le Havre → Grand Hameau, Le Havre" line="3" type="bus" vClass="bus" color="33,165,56" completeness="0.02">
+        <busStop id="10068241858" name="Pont Vauban"/>
+    </ptLine>
+    <ptLine id="2641214" name="Tram A : La Plage, Le Havre → Grand Hameau, Le Havre" line="A" type="tram" vClass="tram" color="227,0,11" completeness="0.03">
+        <route edges="303674884#2 264565627#1 264565627#2 264565627#3 264565627#4 264565627#5 264565627#6 264565627#7 264565627#8 264565627#9 264565627#10 264565627#11 264565627#12 264565627#13 264565627#14 264565627#15 264565627#16 264565627#17 537772768#0 537772768#1 537761430#0 537761430#1 537761430#2 537761430#3 537761430#4 537761430#5 537761434#0 537761434#1 537761434#2 537761434#3 537761434#5 537761434#6 537761434#7 537761434#8 537761434#11 537761434#12 537761434#13 537761434#14 537761434#15 537761434#16 537761434#17 537761434#18 537761434#19"/>
+        <busStop id="1575694296" name="La Plage"/>
+    </ptLine>
+    <ptLine id="2641215" name="Tram B : La Plage, Le Havre → Pré Fleuri, Le Havre" line="B" type="tram" vClass="tram" color="0,150,62" completeness="0.03">
+        <route edges="303674884#2 264565627#1 264565627#2 264565627#3 264565627#4 264565627#5 264565627#6 264565627#7 264565627#8 264565627#9 264565627#10 264565627#11 264565627#12 264565627#13 264565627#14 264565627#15 264565627#16 264565627#17 537772768#0 537772768#1 537761430#0 537761430#1 537761430#2 537761430#3 537761430#4 537761430#5 537761434#0 537761434#1 537761434#2 537761434#3 537761434#5 537761434#6 537761434#7 537761434#8 537761434#11 537761434#12 537761434#13 537761434#14 537761434#15 537761434#16 537761434#17 537761434#18 537761434#19"/>
+        <busStop id="1575694296" name="La Plage"/>
+    </ptLine>
+    <ptLine id="2642193" name="Ligne 4 : Le Havre : Grand Hameau &lt;=&gt; Le Havre : Gares" line="4" type="bus" vClass="bus" color="254,169,57" completeness="0.02">
+        <route edges="-242316872#1 -905856180#2 -905856180#0 -630306072 -288956576#1 -884899260#1 -1121868643 -197335669 1121868644 22338487#0 22338487#1 22338487#2 263476550#0 263476550#1 263476550#2 1003930780#0 -935095225"/>
+        <busStop id="2323330805" name="Hôtel de Ville"/>
+    </ptLine>
+    <ptLine id="2646309" name="Bus 3 : Grand Hameau, Le Havre → Graville, Le Havre" line="3" type="bus" vClass="bus" color="33,165,56" completeness="0.01">
+        <route edges="197335659#0 197335659#2 197335659#4 197335659#5 1006730649#0 893426052#0 880255678#0 -41601195#4 -41601195#3 -41601195#1 209977258#0 209977258#1 209977258#2 209977258#3 209977258#4 209977258#5 209977258#6 -263478933#5 -263478933#3 -263478933#2 -263478933#1 -263478933#0"/>
+        <busStop id="10031759026" name="Ingouville"/>
+    </ptLine>
+    <ptLine id="2646318" name="Ligne 5 : Saint-Adresse : Ignauval &lt;=&gt; Le Havre : Graville" line="5" type="bus" vClass="bus" color="238,0,140" completeness="0.01">
+        <route edges="263478933#0 263478933#1 263478933#2 263478933#3 263478933#5 -209977258#6 -209977258#5 -209977258#4 -209977258#3 -209977258#2 -209977258#1 -209977258#0 41601195#1 41601195#2 41601195#4 -880255678#1 -1032007659 -1006730649#1 -197335659#5 -197335659#4 -197335659#2 -197335659#0"/>
+        <busStop id="2076200229" name="Hôtel de Ville"/>
+    </ptLine>
+    <ptLine id="2649646" name="Tram B : Pré Fleuri, Le Havre → La Plage, Le Havre" line="B" type="tram" vClass="tram" color="0,150,62" completeness="0.03">
+        <busStop id="2068674747" name="Rond-Point"/>
+    </ptLine>
+    <ptLine id="2649647" name="Tram A : Grand Hameau, Le Havre → La Plage, Le Havre" line="A" type="tram" vClass="tram" color="227,0,11" completeness="0.03">
+        <route edges="575295082#0 575295082#1 575295082#2 575295082#3 575295082#4 575295082#5 575295082#6 575295082#7 575295082#8 575295082#11 575295082#12 575295082#13 575295082#14 575295082#16 575295082#17 575295082#18 575295082#19 537761428#0 537761428#1 537761428#2 537761428#3 537761428#4 537761428#5 537761426#0 537761426#1 537772767#0 537772767#1 537772767#2 537772767#3 537772767#4 537772767#5 537772767#6 537772767#7 537772767#8 537772767#9 537772767#10 537772767#11 537772767#12 537772767#13 537772767#14 537772767#15 537772767#16 537772767#17"/>
+        <busStop id="2068674747" name="Rond-Point"/>
+    </ptLine>
+    <ptLine id="6454301" name="Bus C2 : Grand Quai, Le Havre → Place d&apos;Armes, Harfleur" line="C2" type="bus" vClass="bus" color="226,8,22" completeness="0.02">
+        <route edges="-1121868644 197335669 1121868643 884899260#0 884898735#1 630306072 905856180#0 905856180#1 242316872#0 843217893#0 263478255#0 41601195#1 41601195#2 41601195#4 927176956#0 230154508#0 230154508#1 987933713 1033551663#0 243167820#1 243167820#2 243167820#3 243167820#4 243167820#5 41601194#0 41601194#1 41601194#2 41601194#3 41601194#4"/>
+        <busStop id="9557478321" name="Richelieu"/>
+    </ptLine>
+    <ptLine id="9083999" name="Bus 1 : La Hève, Sainte-Adresse → Gare, Montivilliers" line="1" type="bus" vClass="bus" color="27,157,217" completeness="0.01">
+        <route edges="884898735#1 630306072 905856180#0 905856180#1 242316872#0 41601195#1 41601195#2 41601195#4 -880255678#1 -1032007659 -1006730649#1 -197335659#5 -197335659#4 -197335659#2 -197335659#0"/>
+        <busStop id="10028128819" name="Samuel de Champlain"/>
+    </ptLine>
+</ptLines>

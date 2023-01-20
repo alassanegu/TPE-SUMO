@@ -1,0 +1,26 @@
+2023.01.09 08:26:16 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\gueye\Sumo\2023-01-03-12-47-57\.metals\lsp.trace.json or C:\Users\gueye\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.09 08:26:17 INFO  logging to file C:\Users\gueye\Sumo\2023-01-03-12-47-57\.metals\metals.log
+2023.01.09 08:26:17 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\gueye\Sumo\2023-01-03-12-47-57' for client Visual Studio Code 1.74.2.
+2023.01.09 08:26:17 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(8), jdkHome: C:\Program Files\Java\jre1.8.0_351, javac exists: false)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/gueye/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.09 08:26:17 INFO  time: initialize in 0.76s
+2023.01.09 08:26:18 WARN  Build server is not auto-connectable.
+2023.01.09 08:26:18 WARN  no build tool detected in workspace 'C:\Users\gueye\Sumo\2023-01-03-12-47-57'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.20 15:23:14 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\gueye\Sumo\TPE-SUMO\.metals\lsp.trace.json or C:\Users\gueye\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.20 15:23:15 INFO  logging to file C:\Users\gueye\Sumo\TPE-SUMO\.metals\metals.log
+2023.01.20 15:23:15 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\gueye\Sumo\TPE-SUMO' for client Visual Studio Code 1.74.3.
+2023.01.20 15:23:15 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(8), jdkHome: C:\Program Files\Java\jre1.8.0_351, javac exists: false)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/gueye/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.20 15:23:20 INFO  time: initialize in 5s
+2023.01.20 15:23:20 WARN  Build server is not auto-connectable.
+2023.01.20 15:23:20 WARN  no build tool detected in workspace 'C:\Users\gueye\Sumo\TPE-SUMO'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 

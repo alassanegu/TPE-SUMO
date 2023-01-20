@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-01-03 12:48:13.840663 by $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ v1_15_0+0002-e6790248698
+  options: 
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_minibus" vClass="bus"/>
+    <vType id="pt_share_taxi" vClass="taxi"/>
+    <vType id="pt_aerialway" vClass="rail_urban" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_3:0" color="33,165,56" edges="884890355#0" >
+        <stop busStop="10068241858" duration="20" until="41.0"/> <!-- Pont Vauban -->
+    </route>
+    <route id="pt_bus_1:0" color="27,157,217" edges="197335659#0 197335659#2 197335659#4 197335659#5 1006730649#0 893426051#0 893426051#1 893426051#2 893426051#3 71599403#0 71599403#1 71599403#2 48566227#2 965010804 263476550#0 263476550#1 263476550#2 1003930780#0 -541164732#1 -47007849#5 -47007849#4 -47007849#3 -47007849#2 -47007849#1 -47007849#0 70881094#0 70881094#1" >
+        <stop busStop="10031759026" duration="20" until="43.0"/> <!-- Ingouville -->
+    </route>
+    <route id="pt_bus_4:0" color="254,169,57" edges="843217893#0" >
+        <stop busStop="2323330805" duration="20" until="40.0"/> <!-- Hôtel de Ville -->
+    </route>
+    <route id="pt_bus_C2:0" color="226,8,22" edges="-41601194#4 -41601194#3 -41601194#2 -41601194#1 -41601194#0 -243167820#5 5008797#0 5008797#1 5008797#2 5008797#3 5008797#4 5008797#5 12149919#0 12149919#1 12149919#2 12149919#3 12149919#4 884896938#1 74201104 229209068#0 229209068#1 229209068#2 229209068#5 229209068#6 229209068#7 229209068#8 229209068#9 1033555794 87691911#0 1033583298 -288956576#1 -884899260#1 -1121868643 -197335669 1121868644" >
+        <stop busStop="-9561454679" duration="20" until="68.0"/> <!-- Ormeaux -->
+    </route>
+    <route id="pt_bus_5:0" color="238,0,140" edges="263478255#0" >
+        <stop busStop="2076200229" duration="20" until="39.0"/> <!-- Hôtel de Ville -->
+    </route>
+    <route id="pt_bus_3:1" color="33,165,56" edges="197335659#0 197335659#2 197335659#4 197335659#5 1006730649#0 893426052#0 880255678#0 5007465#0 5007465#1 965125129 965124966#0 541155617#0 541155617#1 541155617#2 209977258#3 209977258#4 209977258#5 209977258#6 -263478933#5 -263478933#3 -263478933#2 -263478933#1 -263478933#0" >
+        <stop busStop="10031759026" duration="20" until="43.0"/> <!-- Ingouville -->
+    </route>
+    <route id="pt_tram_A:0" color="227,0,11" edges="303674884#2 264565627#1 264565627#2 264565627#3 264565627#4 264565627#5 264565627#6 264565627#7 264565627#8 264565627#9 264565627#10 264565627#11 264565627#12 264565627#13 264565627#14 264565627#15 264565627#16 264565627#17 537772768#0 537772768#1 537761430#0 537761430#1 537761430#2 537761430#3 537761430#4 537761430#5 537761434#0 537761434#1 537761434#2 537761434#3 537761434#5 537761434#6 537761434#7 537761434#8 537761434#11 537761434#12 537761434#13 537761434#14 537761434#15 537761434#16 537761434#17 537761434#18 537761434#19" >
+        <stop busStop="1575694296" duration="20" until="39.0"/> <!-- La Plage -->
+    </route>
+    <route id="pt_tram_B:0" color="0,150,62" edges="303674884#2 264565627#1 264565627#2 264565627#3 264565627#4 264565627#5 264565627#6 264565627#7 264565627#8 264565627#9 264565627#10 264565627#11 264565627#12 264565627#13 264565627#14 264565627#15 264565627#16 264565627#17 537772768#0 537772768#1 537761430#0 537761430#1 537761430#2 537761430#3 537761430#4 537761430#5 537761434#0 537761434#1 537761434#2 537761434#3 537761434#5 537761434#6 537761434#7 537761434#8 537761434#11 537761434#12 537761434#13 537761434#14 537761434#15 537761434#16 537761434#17 537761434#18 537761434#19" >
+        <stop busStop="1575694296" duration="20" until="71.0"/> <!-- La Plage -->
+    </route>
+    <route id="pt_tram_B:1" color="0,150,62" edges="575295082#0" >
+        <stop busStop="2068674747" duration="20" until="44.0"/> <!-- Rond-Point -->
+    </route>
+    <route id="pt_bus_1:1" color="27,157,217" edges="264822929" >
+        <stop busStop="10028128819" duration="20" until="39.0"/> <!-- Samuel de Champlain -->
+    </route>
+    <route id="pt_bus_C2:1" color="226,8,22" edges="-1121868644 197335669 1121868643 884899260#0 884898735#1 630306072 905856180#0 905856180#1 242316872#0 74354626#0 74354626#1 74354626#2 197335670#0 197335670#1 843217893#0 263478255#0 41601195#1 41601195#2 41601195#4 927176956#0 230154508#0 230154508#1 987933713 1033551663#0 243167820#1 243167820#2 243167820#3 243167820#4 243167820#5 41601194#0 41601194#1 41601194#2 41601194#3 41601194#4" >
+        <stop busStop="9557478321" duration="20" until="46.0"/> <!-- Richelieu -->
+    </route>
+    <route id="pt_tram_A:1" color="227,0,11" edges="575295082#0 575295082#1 575295082#2 575295082#3 575295082#4 575295082#5 575295082#6 575295082#7 575295082#8 575295082#11 575295082#12 575295082#13 575295082#14 575295082#16 575295082#17 575295082#18 575295082#19 537761428#0 537761428#1 537761428#2 537761428#3 537761428#4 537761428#5 537761426#0 537761426#1 537772767#0 537772767#1 537772767#2 537772767#3 537772767#4 537772767#5 537772767#6 537772767#7 537772767#8 537772767#9 537772767#10 537772767#11 537772767#12 537772767#13 537772767#14 537772767#15 537772767#16 537772767#17" >
+        <stop busStop="2068674747" duration="20" until="60.0"/> <!-- Rond-Point -->
+    </route>
+    <flow id="pt_bus_3:0" type="pt_bus" route="pt_bus_3:0" begin="52.0" end="3652.0" period="600" line="3:0" >
+        <param key="name" value="Bus 3 : Graville, Le Havre → Grand Hameau, Le Havre"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_bus_1:0" type="pt_bus" route="pt_bus_1:0" begin="17.0" end="3617.0" period="600" line="1:0" >
+        <param key="name" value="Bus 1 : Gare, Montivilliers → La Hève, Sainte-Adresse"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_bus_4:0" type="pt_bus" route="pt_bus_4:0" begin="165.0" end="3765.0" period="600" line="4:0" >
+        <param key="name" value="Ligne 4 : Le Havre : Grand Hameau &lt;=&gt; Le Havre : Gares"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_bus_C2:0" type="pt_bus" route="pt_bus_C2:0" begin="15.0" end="3615.0" period="600" line="C2:0" >
+        <param key="name" value="Bus C2 : Place d'Armes, Harfleur → Grand Quai, Le Havre"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_bus_5:0" type="pt_bus" route="pt_bus_5:0" begin="303.0" end="3903.0" period="600" line="5:0" >
+        <param key="name" value="Ligne 5 : Saint-Adresse : Ignauval &lt;=&gt; Le Havre : Graville"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_bus_3:1" type="pt_bus" route="pt_bus_3:1" begin="253.0" end="3853.0" period="600" line="3:1" >
+        <param key="name" value="Bus 3 : Grand Hameau, Le Havre → Graville, Le Havre"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_tram_A:0" type="pt_tram" route="pt_tram_A:0" begin="131.0" end="3731.0" period="600" line="A:0" >
+        <param key="name" value="Tram A : La Plage, Le Havre → Grand Hameau, Le Havre"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_tram_B:0" type="pt_tram" route="pt_tram_B:0" begin="138.0" end="3738.0" period="600" line="B:0" >
+        <param key="name" value="Tram B : La Plage, Le Havre → Pré Fleuri, Le Havre"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_tram_B:1" type="pt_tram" route="pt_tram_B:1" begin="383.0" end="3983.0" period="600" line="B:1" >
+        <param key="name" value="Tram B : Pré Fleuri, Le Havre → La Plage, Le Havre"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_1:1" type="pt_bus" route="pt_bus_1:1" begin="535.0" end="4135.0" period="600" line="1:1" >
+        <param key="name" value="Bus 1 : La Hève, Sainte-Adresse → Gare, Montivilliers"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_bus_C2:1" type="pt_bus" route="pt_bus_C2:1" begin="441.0" end="4041.0" period="600" line="C2:1" >
+        <param key="name" value="Bus C2 : Grand Quai, Le Havre → Place d'Armes, Harfleur"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_tram_A:1" type="pt_tram" route="pt_tram_A:1" begin="406.0" end="4006.0" period="600" line="A:1" >
+        <param key="name" value="Tram A : Grand Hameau, Le Havre → La Plage, Le Havre"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+</routes>
